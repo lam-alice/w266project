@@ -1,6 +1,6 @@
 
 import time
-import urllib2
+import urllib.request as urllib2
 from stem import Signal
 from stem.control import Controller
 
