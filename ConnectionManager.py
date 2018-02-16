@@ -18,7 +18,7 @@ class ConnectionManager:
         TOR new connection
         """
         with Controller.from_port(port=9051) as controller:
-            controller.authenticate(password="16:CD59C7E368FB35896080D0D24BDC884D56790CEBEDCB2AEF60475FF808")
+            controller.authenticate(password="987654")
             controller.signal(Signal.NEWNYM)
             controller.close()
 
