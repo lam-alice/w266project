@@ -46,7 +46,7 @@ class ConnectionManager:
                               "Chrome/17.0.963.65 Safari/535.11"})
             request = urllib2.urlopen(request)
             return request
-    except urllib2.HTTPError as e:
+        except urllib2.HTTPError as e:
             return e.message
 
     def new_identity(self):
