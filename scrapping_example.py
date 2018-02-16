@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 __author__ = 'RicardoMoya'
+from w266_common import utils
+utils.require_package("bs4")
 
 from bs4 import BeautifulSoup
 from ConnectionManager import ConnectionManager
